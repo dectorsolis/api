@@ -6,3 +6,4 @@
 3. Utilicé la api.php de laravel ya que despacha los headers de forma más ligera.
 4. La BD la rellené con seeders de laravel leyendo el archivo csv ubicado en la carpeta public de laravel.
 5. Se debe correr la migración correspondiente para crear la tabla necesaria.
+6. La DB preferida es PostgreSQL
