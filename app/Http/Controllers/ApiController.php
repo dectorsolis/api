@@ -19,7 +19,7 @@ class ApiController extends Controller
             //return view('api.zipcodes',['zipcodes' => $zipcodes] );
             $data = [
                 "zip_code" => $zipcodes->first()->zipcode,
-                "locality" => $zipcodes->first()->municipality_name,
+                "locality" => $zipcodes->first()->city_name,
                 "federal_entity" => [
                     "key"   => (int)$zipcodes->first()->federal_entity_key,
                     "name"  => $zipcodes->first()->federal_entity,
