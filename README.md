@@ -7,3 +7,4 @@
 4. La BD la rellené con seeders de laravel leyendo el archivo csv ubicado en la carpeta public de laravel.
 5. Se debe correr la migración correspondiente para crear la tabla necesaria.
 6. La DB preferida es PostgreSQL
+7. Para el deploy preferí utilizar heroku, ya que anteriormente lo había utilizado en otros proyectos y me pareció buena opción.
